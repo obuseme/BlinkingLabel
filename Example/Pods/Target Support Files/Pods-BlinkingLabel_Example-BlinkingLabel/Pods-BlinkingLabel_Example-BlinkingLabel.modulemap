@@ -1,0 +1,6 @@
+framework module BlinkingLabel {
+  umbrella header "Pods-BlinkingLabel_Example-BlinkingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
