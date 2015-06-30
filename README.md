@@ -10,6 +10,10 @@ BlinkingLabel is a subclass of UILabel, written in Swift, that enables the UILab
 
 ![](blinkinglabel.gif?raw=true "Blinking Label screenshot")
 
+## Requirements
+* ARC
+* iOS8
+
 ## Installation with CocoaPods
 
 BlinkingLabel is available through [CocoaPods](http://cocoapods.org). To install
