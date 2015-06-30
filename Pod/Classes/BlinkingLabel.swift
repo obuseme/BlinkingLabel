@@ -6,7 +6,12 @@
 //
 //
 
+/// A UILabel subclass that may be told to blink or stop blinking
 public class BlinkingLabel : UILabel {
+
+    /**
+        Tells the label to start blinking.
+    */
     public func startBlinking() {
         let options : UIViewAnimationOptions = .Repeat | .Autoreverse
         UIView.animateWithDuration(0.25, delay:0.0, options:options, animations: {
@@ -14,6 +19,9 @@ public class BlinkingLabel : UILabel {
             }, completion: nil)
     }
 
+    /**
+    Tells the label to stop blinking.
+    */
     public func stopBlinking() {
         alpha = 1
         layer.removeAllAnimations()
